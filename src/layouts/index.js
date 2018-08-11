@@ -9,12 +9,13 @@ import "./index.css";
 const TemplateWrapper = ({ children }) => (
   <div className="">
     <Helmet
-      title="Gatsby Starter Tailwind"
+      title="Doppple"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
       ]}
     />
+
     <Header />
     <div className="">
       {children()}

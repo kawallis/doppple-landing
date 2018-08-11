@@ -207,6 +207,9 @@ module.exports = {
       'Helvetica Neue',
       'sans-serif',
     ],
+    'logo': [
+      'Helvetica Neue',
+    ],
     'serif': [
       'Constantia',
       'Lucida Bright',

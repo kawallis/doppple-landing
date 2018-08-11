@@ -3,14 +3,16 @@ import '../main.css'
 import { accordian } from '../data/data'
 import ScrollUpButton from "react-scroll-up-button";
 import Loader from 'react-loader-spinner'
+
 import axios from 'axios'
-{/* <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"dde312f9b4cdffe0cd50708e7","lid":"3bac0fd5de"}) })</script> */}
 let cards = [
   { image: require('../icons/Custom.png'), name: 'Customization', desc: 'Seamless traveler and guide customization for both parties (not easy, but essential)' },
   { image: require('../icons/Reputation.png'), name: 'Reputation', desc: 'Reputation matters and we are dedicated to vetting our guides to make sure they give you the experience your looking for' },
   { image: require('../icons/User.png'), name: 'User Friendly', desc: 'A proper travel-based interface (lol if your still trying to find food for tonight)' },
   { image: require('../icons/Group.png'), name: 'Recommendation System', desc: 'A recommendation system customized to places only you’ll like to experience' },
 ]
+
+
 
 export default class IndexPage extends React.Component {
   constructor() {
@@ -75,14 +77,19 @@ export default class IndexPage extends React.Component {
   }
 
   render() {
+    let Stuff = null
+    // console.log(window)
+    // if(window) {
+    //   Stuff = <Drift appId="6ha4ky27vyau" />
+    // }
     return (
       <div className="">
         <div className="hero-bg h-screen flex flex-col justify-around relative">
           <div className="flex flex-row items-center lg:mx-24 p-3 self-start">
             <img 
-              className="h-12"
+              className="h-8"
               src={require('../icons/logo.png')} alt="" />
-            <h1 className="text-white">Detourr</h1>
+            <h1 className="text-white font-logo font-medium">doppple</h1>
           </div>
           
 
@@ -122,11 +129,11 @@ export default class IndexPage extends React.Component {
         <div className="z-10 bg-white min-h-screen flex items-center flex-col justify-center py-12 relative">
           <div className="w-3/5">
             <h3 className="tracking-normal leading-loose">Have you been ripped off by tourist traps, bad reviews, or simply not knowing where to go while in a new city? </h3>
-            <p className="my-6 font-light tracking-normal leading-loose text-lg">Give us your email and we’ll let you know when Detourr is ready!</p>
+            <p className="my-6 font-light tracking-normal leading-loose text-lg">Give us your email and we’ll let you know when Doppple is ready!</p>
             <h3 className="tracking-normal leading-loose">Do you go through an endless amount of lists with everything having five star ratings and can’t decide what to do? </h3>
             <p className="my-6 font-light tracking-normal leading-loose text-lg">This is the sort of thing that current apps just don't care much about and to make things worse the remaining tools like Yelp and Google don't give people recommendations based on their personality or preferences.</p>
             <h3 className="tracking-normal leading-loose">Have you ever gone clubbing with your Aunt Stacy? Or gone to that weird dive bar your friend is strangley obsessed with? </h3>
-            <p className="my-6 font-light tracking-normal leading-loose text-lg">Not Cool and since you don’t share things in common with either of them their reviews shouldn’t matter to you and we’re building Detourr to fix this problem.</p>
+            <p className="my-6 font-light tracking-normal leading-loose text-lg">Not Cool and since you don’t share things in common with either of them their reviews shouldn’t matter to you and we’re building Doppple to fix this problem.</p>
           </div>
         </div>
 
@@ -191,6 +198,7 @@ export default class IndexPage extends React.Component {
           }}
           ToggledStyle={{}}
         />
+
       </div>
 
     )
