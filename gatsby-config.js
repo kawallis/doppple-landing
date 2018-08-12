@@ -10,7 +10,5 @@ module.exports = {
         appId: '6ha4ky27vyau',
       },
     },
-    
-
   ],
 };
