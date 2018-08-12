@@ -54,8 +54,7 @@ export default class IndexPage extends React.Component {
       email: this.state.email
     })
     .then((res) => {
-      console.log(res)
-      if(res.ok) {
+      if(res.data.ok) {
         this.setState({
           subscribed: true,
           email: null,
@@ -68,7 +67,6 @@ export default class IndexPage extends React.Component {
         })
       }    })
     .catch(error => {
-      console.log(error);
       this.setState({
         emailError: true,
         loading: false
