@@ -191,10 +191,10 @@ export default class IndexPage extends React.Component {
           TransitionBtnPosition={150}
           EasingType='easeOutCubic'
           AnimationDuration={500}
-          ContainerClassName='ScrollUpButton__Container arrow shadow bg-purple-darker rounded'
+          ContainerClassName='ScrollUpButton__Container arrow dope shadow bg-purple-darker rounded '
           TransitionClassName='ScrollUpButton__Toggled'
           style={{ 
-            bottom: '35px', right: '101px', backgroundColor: 'none',
+             backgroundColor: 'none',
           }}
           ToggledStyle={{}}
         />
