@@ -17,19 +17,17 @@ const TemplateWrapper = ({ children }) => (
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
       ]}
-      link={[ 
-        { rel: 'shortcut icon', type: 'image/png', href: `${icon32}`}
-    ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${icon32}` }
+      ]}
     />
-    
+
     <link rel="shortcut icon" type="image/png" href={icon32} />
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
     <Header />
-    <div className="">`
-      {children()}
-    </div>
+    {children()}
     <Footer />
   </div>
 );
