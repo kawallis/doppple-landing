@@ -16,6 +16,10 @@ svg {
   bottom: 10px !important;
 }
 
+.car {
+
+}
+
 @media only screen and (max-width: 800px) {
   .phone {
       display: none;
@@ -29,6 +33,16 @@ svg {
 
   .skirt {
     padding: 1rem;
+  }
+
+  .car {
+    font-size: 1em;
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .carfont {
+    font-size: 1em;
   }
 
 }

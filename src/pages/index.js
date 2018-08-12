@@ -170,10 +170,10 @@ export default class IndexPage extends React.Component {
                 key={i}
                 onClick={() => this.handleAccordian(i)} 
                 className="border border-indigo mb-6 p-12 cursor-pointer hover:bg-purple-darkest
-                  w-3/4 
+                  w-3/4 car
                 ">
-                <div className="flex flex-row justify-between">
-                  <h1 className="all:text-lg sm:text-lg  md:text-2xl lg:text-4xl text-white">{item.title}</h1>
+                <div className="flex flex-row justify-between items-center">
+                  <h1 className="carfont all:text-lg sm:text-lg  md:text-2xl lg:text-4xl text-white">{item.title}</h1>
                   <h1 className="text-white">{text}</h1>
                 </div>
                 {this.state.openIndex === i && 
