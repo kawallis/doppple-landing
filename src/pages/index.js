@@ -85,7 +85,7 @@ export default class IndexPage extends React.Component {
     return (
       <div className="">
         <div className="hero-bg h-screen flex flex-col justify-around relative">
-          <div className="flex flex-row items-center lg:mx-24 p-3 self-start">
+          <div className="flex flex-row items-center lg:mx-24 p-3 absolute pin-t mt-3">
             <img 
               className="h-8"
               src={require('../icons/logo.png')} alt="" />
