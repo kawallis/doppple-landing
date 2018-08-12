@@ -103,11 +103,11 @@ export default class IndexPage extends React.Component {
                 value={this.state.email}
                 onChange={this.handleEmail}
                 placeholder="traveler@github.com"
-                className="flex-1 appearance-none p-6 rounded-l shadow  text-grey-darkest focus:outline-none" />
+                className="flex-1 appearance-none p-6 rounded-l shadow  text-grey-darkest focus:outline-none skirt" />
               <button
                 type="submit"
                 onClick={this.handleSubscribed}
-                className="appearance-none p-6 bg-purple-darker text-white text-base tracking-wide uppercase rounded-r shadow hover:bg-purple-darkest">
+                className="appearance-none p-6 bg-purple-darker text-white text-base tracking-wide uppercase rounded-r shadow hover:bg-purple-darkest skirt">
                 Subscribe</button>
             </div>}
             {this.state.loading && <Loader type="ThreeDots" color="white" height={80} width={80} />}
