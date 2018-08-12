@@ -14,8 +14,18 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Doppple"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        { name: "name", content: "Doppple" },
+        { name: "description", content: "A peer to peer travel application to help travelers connect to locals for advice" },
+        { itemprop: "image", content: "https://firebasestorage.googleapis.com/v0/b/travel-e63f1.appspot.com/o/meta%2FScreenshot%202018-08-12%2015.12.40.png?alt=media&token=d0214b23-4ffc-4763-a6d0-8d6970e0a16d" },
+        { property: "og:url", content: "https://doppple.com" },
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: "Doppple" },
+        { property: "og:description", content: "A peer to peer travel application to help travelers connect to locals for advice" },
+        { property: "og:image", content: "https://firebasestorage.googleapis.com/v0/b/travel-e63f1.appspot.com/o/meta%2FScreenshot%202018-08-12%2015.12.40.png?alt=media&token=d0214b23-4ffc-4763-a6d0-8d6970e0a16d" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: "Doppple" },
+        { name: "twitter:description", content: "A peer to peer travel application to help travelers connect to locals for advice" },
+        { name: "twitter:image", content: "https://firebasestorage.googleapis.com/v0/b/travel-e63f1.appspot.com/o/meta%2FScreenshot%202018-08-12%2015.12.40.png?alt=media&token=d0214b23-4ffc-4763-a6d0-8d6970e0a16d" },
       ]}
       link={[
         { rel: 'shortcut icon', type: 'image/png', href: `${icon32}` }
