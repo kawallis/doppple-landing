@@ -186,7 +186,7 @@ export default class IndexPage extends React.Component {
           })}
           </div>
         </div>
-        <ScrollUpButton
+        {/* <ScrollUpButton
           StopPosition={0}
           TransitionBtnPosition={150}
           EasingType='easeOutCubic'
@@ -197,7 +197,7 @@ export default class IndexPage extends React.Component {
              backgroundColor: 'none',
           }}
           ToggledStyle={{}}
-        />
+        /> */}
 
       </div>
 
