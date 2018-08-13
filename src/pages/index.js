@@ -93,8 +93,8 @@ export default class IndexPage extends React.Component {
 
           <div className="lg:w-2/5 md:w-2/5 sm:w-full lg:mx-24 p-3">
             <h1 className="text-5xl text-white my-12">Locals Know Best</h1>
-            <p className="text-white my-12 font-light leading-loose">Get direct access to locals for local-knowledge travel tips with simple, secure, and fast messaging, available on phones all over the world.</p>
-            {this.state.subscribed && <h1 className="text-5xl text-white my-12">Thanks For Subscribing!</h1>}
+            <p className="text-white my-12 font-light leading-loose text-xl">A messaging app for local-knowledge travel tips curated by locals.</p>
+            {this.state.subscribed && <h1 className="text-4xl text-white my-12">Thanks For Subscribing!</h1>}
             {!this.state.subscribed && !this.state.loading && <div className="flex items-center w-full my-12">
               <input
                 type="email"
@@ -129,7 +129,7 @@ export default class IndexPage extends React.Component {
             <h3 className="tracking-normal leading-loose">Have you been ripped off by tourist traps, bad reviews, or simply not knowing where to go while in a new city? </h3>
             <p className="my-6 font-light tracking-normal leading-loose text-lg">Give us your email and we’ll let you know when Doppple is ready!</p>
             <h3 className="tracking-normal leading-loose">Do you go through an endless amount of lists with everything having five star ratings and can’t decide what to do? </h3>
-            <p className="my-6 font-light tracking-normal leading-loose text-lg">This is the sort of thing that current apps just don't care much about and to make things worse the remaining tools like Yelp and Google don't give people recommendations based on their personality or preferences.</p>
+            <p className="my-6 font-light tracking-normal leading-loose text-lg">This is the sort of thing that current apps just don't care much about and to make things worse the remaining tools don't give you recommendations based on your personality or preferences.</p>
             <h3 className="tracking-normal leading-loose">Have you ever gone clubbing with your Aunt Stacy? Or gone to that weird dive bar your friend is strangley obsessed with? </h3>
             <p className="my-6 font-light tracking-normal leading-loose text-lg">Not Cool and since you don’t share things in common with either of them their reviews shouldn’t matter to you and we’re building Doppple to fix this problem.</p>
           </div>
