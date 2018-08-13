@@ -93,7 +93,7 @@ export default class IndexPage extends React.Component {
 
           <div className="lg:w-2/5 md:w-2/5 sm:w-full lg:mx-24 p-3">
             <h1 className="text-5xl text-white my-12">Locals Know Best</h1>
-            <p className="text-white my-12 font-light leading-loose">Get direct access to locals for local-knowledege travel tips with simple, secure, and fast messaging, available on phones all over the world.</p>
+            <p className="text-white my-12 font-light leading-loose">Get direct access to locals for local-knowledge travel tips with simple, secure, and fast messaging, available on phones all over the world.</p>
             {this.state.subscribed && <h1 className="text-5xl text-white my-12">Thanks For Subscribing!</h1>}
             {!this.state.subscribed && !this.state.loading && <div className="flex items-center w-full my-12">
               <input
